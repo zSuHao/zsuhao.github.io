@@ -13,7 +13,7 @@
   --table-row-odd-bg-color: #f9f9f9;
   --table-row-hover-bg-color: #f5f5f5;
   --menu-item-bg-color: #f5f5f5;
-  --theme-color: #222;
+  --theme-color: #666;
   --btn-default-bg: #fff;
   --btn-default-color: #555;
   --btn-default-border-color: #555;
@@ -42,7 +42,7 @@
     --table-row-odd-bg-color: #282828;
     --table-row-hover-bg-color: #363636;
     --menu-item-bg-color: #555;
-    --theme-color: #222;
+    --theme-color: #666;
     --btn-default-bg: #222;
     --btn-default-color: #ccc;
     --btn-default-border-color: #555;
@@ -1429,7 +1429,7 @@ pre code {
     transition: all 0.2s ease-in-out;
   }
   .links-of-author a::before {
-    background: #367fff;
+    background: #b965b3;
     display: inline-block;
     margin-right: 3px;
     transform: translateY(-2px);
@@ -1829,6 +1829,11 @@ pre code {
   display: inline-block;
   margin: 0 5px;
 }
+.beian img {
+  display: inline-block;
+  margin: 0 3px;
+  vertical-align: middle;
+}
 @keyframes icon-animate {
   0%, 100% {
     transform: scale(1);
@@ -1885,6 +1890,16 @@ pre code {
 }
 .back-to-top.back-to-top-on {
   bottom: 30px;
+}
+.reading-progress-bar {
+  --progress: 0;
+  background: #37c6c0;
+  height: 3px;
+  position: fixed;
+  z-index: 50;
+  width: var(--progress);
+  left: 0;
+  top: 0;
 }
 .rtl.post-body p,
 .rtl.post-body a,
