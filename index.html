@@ -18,7 +18,7 @@
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha256-5eIC48iZUHmSlSUz9XtjRyK2mzQkHScZY1WdMaoz74E=" crossorigin="anonymous">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.1.1/animate.min.css" integrity="sha256-PR7ttpcvz8qrF57fur/yAx1qXMFJeJFiA6pSzWi0OIE=" crossorigin="anonymous">
 
-<script class="next-config" data-name="main" type="application/json">{"hostname":"zsuh.cc","root":"/","images":"/images","scheme":"Gemini","darkmode":true,"version":"8.21.0","exturl":false,"sidebar":{"position":"left","width_expanded":320,"width_dual_column":240,"display":"post","padding":18,"offset":12},"hljswrap":true,"copycode":{"enable":false,"style":null},"fold":{"enable":false,"height":500},"bookmark":{"enable":false,"color":"#222","save":"auto"},"mediumzoom":false,"lazyload":false,"pangu":false,"comments":{"style":"tabs","active":null,"storage":true,"lazyload":false,"nav":null},"stickytabs":false,"motion":{"enable":true,"async":false,"transition":{"menu_item":"fadeInDown","post_block":"fadeIn","post_header":"fadeInDown","post_body":"fadeInDown","coll_header":"fadeInLeft","sidebar":"fadeInUp"}},"i18n":{"placeholder":"搜索...","empty":"没有找到任何搜索结果：${query}","hits_time":"找到 ${hits} 个搜索结果（用时 ${time} 毫秒）","hits":"找到 ${hits} 个搜索结果"}}</script><script src="/js/config.js"></script>
+<script class="next-config" data-name="main" type="application/json">{"hostname":"zsuh.cc","root":"/","images":"/images","scheme":"Gemini","darkmode":true,"version":"8.21.0","exturl":false,"sidebar":{"position":"left","width_expanded":320,"width_dual_column":240,"display":"post","padding":18,"offset":12},"hljswrap":true,"copycode":{"enable":false,"style":null},"fold":{"enable":false,"height":500},"bookmark":{"enable":false,"color":"#222","save":"auto"},"mediumzoom":false,"lazyload":true,"pangu":false,"comments":{"style":"tabs","active":null,"storage":true,"lazyload":false,"nav":null},"stickytabs":false,"motion":{"enable":true,"async":false,"transition":{"menu_item":"fadeInDown","post_block":"fadeIn","post_header":"fadeInDown","post_body":"fadeInDown","coll_header":"fadeInLeft","sidebar":"fadeInUp"}},"i18n":{"placeholder":"搜索...","empty":"没有找到任何搜索结果：${query}","hits_time":"找到 ${hits} 个搜索结果（用时 ${time} 毫秒）","hits":"找到 ${hits} 个搜索结果"}}</script><script src="/js/config.js"></script>
 
     <meta name="description" content="但行前路，不负韶华。">
 <meta property="og:type" content="website">
@@ -74,7 +74,7 @@
       <h1 class="site-title">追溯恒</h1>
       <i class="logo-line"></i>
     </a>
-      <p class="site-subtitle" itemprop="description">Java程序猿</p>
+      <p class="site-subtitle" itemprop="description">ZsuHaoのBlog</p>
   </div>
 
   <div class="site-nav-right">
@@ -202,7 +202,7 @@
         <i class="far fa-calendar-check"></i>
       </span>
       <span class="post-meta-item-text">更新于</span>
-      <time title="修改时间：2024-10-14 11:53:53" itemprop="dateModified" datetime="2024-10-14T11:53:53+08:00">2024-10-14</time>
+      <time title="修改时间：2024-10-14 12:21:49" itemprop="dateModified" datetime="2024-10-14T12:21:49+08:00">2024-10-14</time>
     </span>
 
   
@@ -215,34 +215,15 @@
     
     
     <div class="post-body" itemprop="articleBody">
-          <blockquote>
-<p>进制转换是计算机科学和数学的一个常见操作，涉及到不同进制数之间的转换。<br>最常见的进制包括二进制、八进制、十进制和十六进制 下面是我总结的一些基本的进制转换方法</p>
-</blockquote>
-<h2 id="二进制转十进制"><a href="#二进制转十进制" class="headerlink" title="二进制转十进制"></a>二进制转十进制</h2><ol>
-<li>将二进制的每一位乘以二的相应权重</li>
-<li>然后将这些乘积相加得到十进制数</li>
-</ol>
-<p>例如，二进制数1011转换为十进制<br>逐步拆分1011对应的位次为3210</p>
-<p>那么通过乘以相应位次得出<br>1x2的三次方&#x3D;8<br>0x2的二次方&#x3D;0<br>1x2的一次方&#x3D;2<br>1x2的零次方&#x3D;1<br>8+0+2+1&#x3D;11</p>
-<h2 id="十进制转二进制"><a href="#十进制转二进制" class="headerlink" title="十进制转二进制"></a>十进制转二进制</h2><ol>
-<li>将十进制数除以2取余数</li>
-<li>继续将商除以2，直到商为0</li>
-<li>将记录的余数倒序排列，即为二进制数。</li>
-</ol>
-<p>例如将11转换为二进制<br>11除以2等于5余1<br>5除以2等于2余1<br>2除以2等于1余0<br>1除以2等于0余1<br>将记录的余数倒序排列后为1011</p>
-<h2 id="二进制转八进制"><a href="#二进制转八进制" class="headerlink" title="二进制转八进制"></a>二进制转八进制</h2><blockquote>
-<p>八进制：基数为8，使用八个数字0到7来表示数值。每个数字位称为八位（octet）。</p>
-</blockquote>
-<ol>
-<li>将二进制数从右到左每三位一组进行分组（不足三位的在左边补0）。</li>
-<li>将每组二进制数转换为对应的八进制数。<br>例如，二进制数 11011010 转换为八进制：<br>从右到左分组：11 011 010<br>011 转换为八进制是 3<br>010 转换为八进制是 2<br>11 转换为八进制是 3（在前面补零得到 011，然后转换）<br>因此，二进制数11011010转换为八进制是326。</li>
-</ol>
-<h2 id="八进制转二进制"><a href="#八进制转二进制" class="headerlink" title="八进制转二进制"></a>八进制转二进制</h2><p>将八进制数的每一位转换为对应的三位二进制数。<br>例如，八进制数 55 转换为二进制：<br>5<br> (101)<br>5<br> (101)<br>5 (101) 5 (101)<br>因此，55 八进制等于 101101 二进制。</p>
-<h2 id="二进制转十六进制"><a href="#二进制转十六进制" class="headerlink" title="二进制转十六进制"></a>二进制转十六进制</h2><p>类似于二进制到八进制的转换，每四位二进制数转换为对应的十六进制数。</p>
-<h2 id="十六进制转二进制"><a href="#十六进制转二进制" class="headerlink" title="十六进制转二进制"></a>十六进制转二进制</h2><p>将十六进制数的每一位转换为对应的四位二进制数。</p>
-<h2 id="十进制转八进制或十六进制"><a href="#十进制转八进制或十六进制" class="headerlink" title="十进制转八进制或十六进制"></a>十进制转八进制或十六进制</h2><p>先将十进制数转换为二进制，然后再转换为目标进制。</p>
-<h2 id="八进制或十六进制转十进制"><a href="#八进制或十六进制转十进制" class="headerlink" title="八进制或十六进制转十进制"></a>八进制或十六进制转十进制</h2><p>先将目标进制数转换为二进制，然后再转换为十进制。</p>
-
+          <p>进制转换是计算机科学和数学的一个常见操作，涉及到不同进制数之间的转换。最常见的进制包括二进制、八进制、十进制和十六进制 下面是我总结的一些基本的进制转换方法</p>
+          <!--noindex-->
+            <div class="post-button">
+              <a class="btn" href="/posts/35589.html">
+                阅读全文 &raquo;
+              </a>
+            </div>
+          <!--/noindex-->
+        
       
     </div>
 
@@ -304,6 +285,7 @@
 
   
   <script src="https://cdnjs.cloudflare.com/ajax/libs/animejs/3.2.1/anime.min.js" integrity="sha256-XL2inqUJaslATFnHdJOi9GfQ60on8Wx1C2H8DYiN1xY=" crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/lozad.js/1.16.0/lozad.min.js" integrity="sha256-mOFREFhqmHeQbXpK2lp4nA3qooVgACfh88fpJftLBbc=" crossorigin="anonymous"></script>
 <script src="/js/comments.js"></script><script src="/js/utils.js"></script><script src="/js/motion.js"></script><script src="/js/sidebar.js"></script><script src="/js/next-boot.js"></script>
 
   
