@@ -20,25 +20,27 @@
 
 <script class="next-config" data-name="main" type="application/json">{"hostname":"suhao.cc","root":"/","images":"/images","scheme":"Gemini","darkmode":true,"version":"8.21.0","exturl":false,"sidebar":{"position":"left","width_expanded":320,"width_dual_column":240,"display":"post","padding":18,"offset":12},"hljswrap":true,"copycode":{"enable":false,"style":null},"fold":{"enable":false,"height":500},"bookmark":{"enable":false,"color":"#222","save":"auto"},"mediumzoom":false,"lazyload":true,"pangu":false,"comments":{"style":"tabs","active":null,"storage":true,"lazyload":false,"nav":null},"stickytabs":false,"motion":{"enable":true,"async":false,"transition":{"menu_item":"fadeInDown","post_block":"fadeIn","post_header":"fadeInDown","post_body":"fadeInDown","coll_header":"fadeInLeft","sidebar":"fadeInUp"}},"i18n":{"placeholder":"搜索...","empty":"没有找到任何搜索结果：${query}","hits_time":"找到 ${hits} 个搜索结果（用时 ${time} 毫秒）","hits":"找到 ${hits} 个搜索结果"}}</script><script src="/js/config.js"></script>
 
-    <meta name="description" content="但行前路，不负韶华。">
-<meta property="og:type" content="website">
-<meta property="og:title" content="追溯恒">
-<meta property="og:url" content="http://suhao.cc/archives/2024/10/index.html">
+    <meta name="description" content="cloudreve是一个在线存储程序 支持对接阿里云oss、腾讯云存储、又拍云、千牛云等。是一个功能强大的在线存储程序">
+<meta property="og:type" content="article">
+<meta property="og:title" content="宝塔docker搭建cloudreve云存储">
+<meta property="og:url" content="http://suhao.cc/posts/13041.html">
 <meta property="og:site_name" content="追溯恒">
-<meta property="og:description" content="但行前路，不负韶华。">
+<meta property="og:description" content="cloudreve是一个在线存储程序 支持对接阿里云oss、腾讯云存储、又拍云、千牛云等。是一个功能强大的在线存储程序">
 <meta property="og:locale" content="zh_CN">
+<meta property="article:published_time" content="2024-12-03T09:35:39.000Z">
+<meta property="article:modified_time" content="2024-12-03T09:38:13.471Z">
 <meta property="article:author" content="张素豪">
 <meta name="twitter:card" content="summary">
 
 
-<link rel="canonical" href="http://suhao.cc/archives/2024/10/">
+<link rel="canonical" href="http://suhao.cc/posts/13041.html">
 
 
 
-<script class="next-config" data-name="page" type="application/json">{"sidebar":"","isHome":false,"isPost":false,"lang":"zh-CN","comments":"","permalink":"","path":"archives/2024/10/index.html","title":""}</script>
+<script class="next-config" data-name="page" type="application/json">{"sidebar":"","isHome":false,"isPost":true,"lang":"zh-CN","comments":true,"permalink":"http://suhao.cc/posts/13041.html","path":"posts/13041.html","title":"宝塔docker搭建cloudreve云存储"}</script>
 
 <script class="next-config" data-name="calendar" type="application/json">""</script>
-<title>归档 | 追溯恒</title>
+<title>宝塔docker搭建cloudreve云存储 | 追溯恒</title>
   
 
 
@@ -76,7 +78,7 @@
 
     <a href="/" class="brand" rel="start">
       <i class="logo-line"></i>
-      <h1 class="site-title">追溯恒</h1>
+      <p class="site-title">追溯恒</p>
       <i class="logo-line"></i>
     </a>
       <p class="site-subtitle" itemprop="description">SuHaoのBlog</p>
@@ -203,129 +205,88 @@
 
     </div>
 
-    <div class="main-inner archive posts-collapse">
+    <div class="main-inner post posts-expand">
 
 
   
-  
-  
-  <div class="post-block">
-    <div class="post-content">
-      <div class="collection-title">
-        <span class="collection-header">嗯..! 目前共计 8 篇日志。 继续努力。</span>
-      </div>
 
+
+<div class="post-block">
+  
+  
+
+  <article itemscope itemtype="http://schema.org/Article" class="post-content" lang="zh-CN">
+    <link itemprop="mainEntityOfPage" href="http://suhao.cc/posts/13041.html">
+
+    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
+      <meta itemprop="image" content="http://q1.qlogo.cn/g?b=qq&nk=2544728048&s=100">
+      <meta itemprop="name" content="张素豪">
+    </span>
+
+    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
+      <meta itemprop="name" content="追溯恒">
+      <meta itemprop="description" content="但行前路，不负韶华。">
+    </span>
+
+    <span hidden itemprop="post" itemscope itemtype="http://schema.org/CreativeWork">
+      <meta itemprop="name" content="宝塔docker搭建cloudreve云存储 | 追溯恒">
+      <meta itemprop="description" content="cloudreve是一个在线存储程序 支持对接阿里云oss、腾讯云存储、又拍云、千牛云等。是一个功能强大的在线存储程序">
+    </span>
+      <header class="post-header">
+        <h1 class="post-title" itemprop="name headline">
+          宝塔docker搭建cloudreve云存储
+        </h1>
+
+        <div class="post-meta-container">
+          <div class="post-meta">
+    <span class="post-meta-item">
+      <span class="post-meta-item-icon">
+        <i class="far fa-calendar"></i>
+      </span>
+      <span class="post-meta-item-text">发表于</span>
       
-    <div class="collection-year">
-      <span class="collection-header">2024<span class="collection-year-count">7</span></span>
+
+      <time title="创建时间：2024-12-03 17:35:39 / 修改时间：17:38:13" itemprop="dateCreated datePublished" datetime="2024-12-03T17:35:39+08:00">2024-12-03</time>
+    </span>
+
+  
+</div>
+
+            <div class="post-description">cloudreve是一个在线存储程序 支持对接阿里云oss、腾讯云存储、又拍云、千牛云等。是一个功能强大的在线存储程序</div>
+        </div>
+      </header>
+
+    
+    
+    
+    <div class="post-body" itemprop="articleBody">
     </div>
 
-  <article itemscope itemtype="http://schema.org/Article">
-    <header class="post-header">
-      <div class="post-meta-container">
-        <time itemprop="dateCreated"
-              datetime="2024-10-20T22:19:36+08:00"
-              content="2024-10-20">
-          10-20
-        </time>
-      </div>
+    
+    
+    
 
-      <div class="post-title">
-          <a class="post-title-link" href="/posts/63976.html" itemprop="url">
-            <span itemprop="name">独角兽号码卡保姆级教程搭建个人发卡平台</span>
-          </a>
-      </div>
+    <footer class="post-footer">
 
-      
-    </header>
+        
+
+          <div class="post-nav">
+            <div class="post-nav-item">
+                <a href="/posts/13310.html" rel="prev" title="linux在远程终端命令行开放服务器端口">
+                  <i class="fa fa-angle-left"></i> linux在远程终端命令行开放服务器端口
+                </a>
+            </div>
+            <div class="post-nav-item">
+            </div>
+          </div>
+    </footer>
   </article>
-
-  <article itemscope itemtype="http://schema.org/Article">
-    <header class="post-header">
-      <div class="post-meta-container">
-        <time itemprop="dateCreated"
-              datetime="2024-10-20T20:20:52+08:00"
-              content="2024-10-20">
-          10-20
-        </time>
-      </div>
-
-      <div class="post-title">
-          <a class="post-title-link" href="/posts/58855.html" itemprop="url">
-            <span itemprop="name">宝塔搭建99AI的多功能和商用AI建站教程</span>
-          </a>
-      </div>
-
-      
-    </header>
-  </article>
-
-  <article itemscope itemtype="http://schema.org/Article">
-    <header class="post-header">
-      <div class="post-meta-container">
-        <time itemprop="dateCreated"
-              datetime="2024-10-18T18:46:26+08:00"
-              content="2024-10-18">
-          10-18
-        </time>
-      </div>
-
-      <div class="post-title">
-          <a class="post-title-link" href="/posts/undefined.html" itemprop="url">
-            <span itemprop="name">解决PHP受 SourceGuardian 保护，需要安装 SourceGuardian 加载程序。</span>
-          </a>
-      </div>
-
-      
-    </header>
-  </article>
-
-  <article itemscope itemtype="http://schema.org/Article">
-    <header class="post-header">
-      <div class="post-meta-container">
-        <time itemprop="dateCreated"
-              datetime="2024-10-14T13:42:16+08:00"
-              content="2024-10-14">
-          10-14
-        </time>
-      </div>
-
-      <div class="post-title">
-          <a class="post-title-link" href="/posts/28738.html" itemprop="url">
-            <span itemprop="name">如何使用IntelliJ IDEA配合GitHub进行协同开发</span>
-          </a>
-      </div>
-
-      
-    </header>
-  </article>
-
-  <article itemscope itemtype="http://schema.org/Article">
-    <header class="post-header">
-      <div class="post-meta-container">
-        <time itemprop="dateCreated"
-              datetime="2024-10-14T13:31:23+08:00"
-              content="2024-10-14">
-          10-14
-        </time>
-      </div>
-
-      <div class="post-title">
-          <a class="post-title-link" href="/posts/23167.html" itemprop="url">
-            <span itemprop="name">VM虚拟机创建Linux镜像系统</span>
-          </a>
-      </div>
-
-      
-    </header>
-  </article>
+</div>
 
 
-    </div>
-  </div>
-  
-  
-  
+
+
+
 
 </div>
   </main>
